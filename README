@@ -1,0 +1,10 @@
+# Sudoku Solution Validator (Multithreaded)
+
+Project 1 - Operating Systems. 
+Ứng dụng kiểm tra lời giải Sudoku sử dụng **27 Pthreads** chạy song song trên Linux/WSL.
+
+## Cách biên dịch và chạy
+1. Mở Terminal/WSL.
+2. Biên dịch: 
+   ```bash
+   gcc main.c validator.c -o sudoku_validator -lpthread

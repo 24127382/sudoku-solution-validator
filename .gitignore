@@ -1,0 +1,16 @@
+
+# Các file thực thi (Binary) - Tên file em đặt sau khi gcc -o
+sudoku_validator
+*.exe
+*.out
+
+# Các file object sinh ra trong quá trình biên dịch
+*.o
+
+# Các file tạm của VS Code hoặc hệ thống
+.vscode/
+.DS_Store
+*.swp
+
+# Các file log hoặc kết quả tạm
+*.log
